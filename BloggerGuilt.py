@@ -64,11 +64,18 @@ for d in dates:
 	entries.append(entry)
 	e = e + 1 
 
+#print output
+print "***THE LAST 100 BLOGS***"
+
 #count blogs by blogger and print to terminal
+print " "
+print " " 
 print "DISTRIBUTION BY TOTAL"
 pprint(Counter(names).most_common())
 
 #count blog by most recent blog date and print to terminal
+print " "
+print " " 
 print "DISTRIBUTION BY TIME"
 mostRecent = []
 for i in entries:
