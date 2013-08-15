@@ -76,8 +76,9 @@ for i in entries:
 		print i["author"] + "\t \t" + i["date"]
 		mostRecent.append(i["author"])
 
-print "THE LAST 100 BLOGS"
-print "(ordered by recency, then number)"
+#print "THE LAST 100 BLOGS"
+#print "(ordered by recency, then number)"
+#do this later 
 
 #write to csv and save to directory 
 keys = ['date', 'author', 'title', 'url']
